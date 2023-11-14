@@ -17,7 +17,9 @@ Real-time monitoring of voltage output for each LM399 unit is possible with SENS
 To utilize this burn-in board effectively, you will need the following:
 
 -LM399 voltage references (the board is currently designed to burn in ten references at a time).
+
 -A stable power supply with low ripple and noise or a battery that can supply 15-18 volts..
+
 -A 6 1/2 digit meter or better to monitor the drift of the references over time. Most 6 1/2 digit meters use an LM399 voltage reference themselves so you may see drift from the reference in your meter. It is possible to use an ultra low drift reference such as those based on the LTZ1000 or ADR1000 and then measure your LM399's against that reference with a 6 1/2 digit meter with greater precision.
 
 To use the burn-in board for testing LM399 voltage references, follow these steps:
